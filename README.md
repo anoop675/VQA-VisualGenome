@@ -17,9 +17,9 @@ Annotations: Dense and structured, including:
   *  Region-based QAs: Questions about specific regions, collected to study how well models perform at answering questions using the image or the description as input.
 
 Applications:
-  Visual Question Answering (VQA)
-  Scene graph generation
-  Image captioning
+  Visual Question Answering (VQA),
+  Scene graph generation,
+  Image captioning,
   Multimodal learning
 
  # *References:*
