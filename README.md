@@ -5,7 +5,8 @@ Homepage: https://homes.cs.washington.edu/~ranjay/visualgenome/
 
 Visual Genome is a large-scale dataset designed for vision-and-language research. Its goal is to provide rich annotations connecting images with objects, attributes, relationships, and natural language descriptions.
 
-Size: ~108,000 images.
+Size: ~108,000 images
+
 Annotations: Dense and structured, including:
 * Objects: Bounding boxes + labels
 * Attributes: Object descriptors (e.g., color, shape)
