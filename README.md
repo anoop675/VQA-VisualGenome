@@ -7,11 +7,11 @@ Visual Genome is a large-scale dataset designed for vision-and-language research
 
 Size: ~108,000 images.
 Annotations: Dense and structured, including:
-  Objects: Bounding boxes + labels
-  Attributes: Object descriptors (e.g., color, shape)
-  Relationships: Triplets (subject → predicate → object)
-  Region descriptions: Free-form sentences about image regions
-  Question-Answer pairs: VQA-style questions
+* Objects: Bounding boxes + labels
+* Attributes: Object descriptors (e.g., color, shape)
+* Relationships: Triplets (subject → predicate → object)
+* Region descriptions: Free-form sentences about image regions
+* Question-Answer pairs: VQA-style questions
 
 Applications:
   Visual Question Answering (VQA)
