@@ -10,9 +10,11 @@ Size: ~108,000 images
 Annotations: Dense and structured, including:
 * Objects: Bounding boxes + labels
 * Attributes: Object descriptors (e.g., color, shape)
-* Relationships: Triplets (subject → predicate → object)
-* Region descriptions: Free-form sentences about image regions
-* Question-Answer pairs: VQA-style questions
+* Relationships: Triplets (subject -> predicate -> object)
+* Region descriptions: Freeform sentences about image regions
+* Question-Answer (QA) pairs: VQA-style questions
+  *  Freeform QAs: Questions about the entire image.
+  *  Region-based QAs: Questions about specific regions, collected to study how well models perform at answering questions using the image or the description as input.
 
 Applications:
   Visual Question Answering (VQA)
