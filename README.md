@@ -2,6 +2,7 @@
 
 # *Dataset Description:*
 Homepage: https://homes.cs.washington.edu/~ranjay/visualgenome/
+Dataset Structure: https://huggingface.co/datasets/ranjaykrishna/visual_genome/blob/main/README.md#dataset-structure
 
 Visual Genome is a large-scale dataset designed for vision-and-language research. Its goal is to provide rich annotations connecting images with objects, attributes, relationships, and natural language descriptions.
 
