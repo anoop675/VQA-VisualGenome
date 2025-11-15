@@ -551,4 +551,4 @@ def vqa_pipeline(limit_examples=2000, top_k=1000, max_images_to_download=1000, d
 
 if __name__ == "__main__":
 	# TODO: adjust params to scale up training
-	vqa_pipeline(limit_examples=2000, top_k=1000, max_images_to_download=1000, download_jsons=True) #small params for quick experiments, can you give me a good way to modularize this (DON'T change the code)
+	vqa_pipeline(limit_examples=2000, top_k=1000, max_images_to_download=1000, download_jsons=True) #small params for quick experiments

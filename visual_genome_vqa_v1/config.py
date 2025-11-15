@@ -1,0 +1,14 @@
+DEVICE = "cuda:0" if __import__('torch').cuda.is_available() else "cpu"
+ROOT = "./visual_genome_data"
+IMG_DIR = "./vg_images"
+TRAIN_EMB = "train_seq_embeddings_vg.pt"
+VAL_EMB = "val_seq_embeddings_vg.pt"
+TEST_EMB = "test_seq_embeddings_vg.pt"
+VISUAL_GENOME_BASE = "https://homes.cs.washington.edu/~ranjay/visualgenome/data/dataset"
+QUESTION_ANS_ZIP = "question_answers.json.zip"
+IMAGE_DATA_ZIP = "image_data.json.zip"
+SEED = 42
+BATCH_EMB_BUILD = 24
+TRAIN_BATCH = 8
+VAL_BATCH = 16
+EPOCHS = 4
